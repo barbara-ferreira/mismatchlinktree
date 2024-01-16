@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: white;
+    background: black;
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 50px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 15px 0;
+}
+
+.social i {
+    width: 30px; 
+    color: white;
+    font-size: 25px;
+}
+
+figure { width: 90%; min-width: 17.5em; margin:0 auto;}
+figcaption { font: 120% sans-serif; text-align: center;}
+
+.boxVideo {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 25px;
+    height: 0;
+    margin:0 auto;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.boxVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    display: block;
+    background: white;
+    opacity: 60%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.links-list li a span {
+    color: rgba(70,72,74,1);
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
